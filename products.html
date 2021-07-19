@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Database HomePage</title>
+  <Link rel="stylesheet" href="Products_style.css" type="text/css">  
+ </head>
+ <body>
+
+    
+    <!-- Nav bar -->
+    <div id="nav_bar">
+        <ul id="nav_bar_list">
+        <li id="nav_bar_elem"><a href="index.html">Reports</a></li>
+          <li id="nav_bar_elem"><a href="customers.html">Customers</a></li>
+          <li id="nav_bar_elem"><a href="orders.html">Orders</a></li>
+          <li id="nav_bar_elem"><a href="products.html">Products</a></li>
+          <li id="nav_bar_elem"><a href="departments.html">Departments</a></li>
+          <li id="nav_bar_elem"><a href="seasons.html">Seasons</a></li>
+        </ul>
+    </div>
+
+
+    <!--Page title-->
+    <div id="title">
+        <h2>Products</h2>
+    </div>
+
+
+    <!--Table (Products) -->
+    <div class="product_table">
+
+        <table>
+            <tr>
+                <th>productID</th>
+                <th>productName</th>
+                <th>departmentID</th>
+                <th>salePrice</th>
+                <th>Modify</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Apple</td>
+                <td>1</td>
+                <td>2.99</td>
+                <td><button>Update</button><button>Delete</button></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Banana</td>
+                <td>1</td>
+                <td>5.99</td>
+                <td><button>Update</button><button>Delete</button></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Cucumber</td>
+                <td>1</td>
+                <td>3.99</td>
+                <td><button>Update</button><button>Delete</button></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Orange</td>
+                <td>1</td>
+                <td>1.99</td>
+                <td><button>Update</button><button>Delete</button></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Tulip</td>
+                <td>2</td>
+                <td>7.99</td>
+                <td><button>Update</button><button>Delete</button></td>
+            </tr>
+
+            <tr>
+                <td><input type="text" placeholder="Product ID"></input></td>
+                <td><input type="text" placeholder="Name"></input></td>
+                <td><input type="text" placeholder="Department ID"></input></td>
+                <td> <input type="text" placeholder="Sale Price"></input></td>
+                <td><button id="submit_button">Submit</button> </td>
+            </tr>
+        </table>
+    </div>
+
+
+
+
+
+ </body>
+</html>
